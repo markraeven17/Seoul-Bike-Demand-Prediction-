@@ -46,7 +46,6 @@ This project uses a deep learning model built with TensorFlow/Keras to predict w
 ---
 
 ## Model Architecture
-
 ```text
 Input Layer  →  Dense(50, relu)
              →  Dense(50, relu)
@@ -59,10 +58,11 @@ Input Layer  →  Dense(50, relu)
 Loss Function: binary_crossentropy
 Optimizer: Adam
 Callback: EarlyStopping with patience=3
-
-Metric	Values
+```
 ---
-Train Accuracy	~99.6%
-Validation Accuracy	~99.5%
-Test Accuracy	~99.7%
-Final Loss	~0.0081
+## Training Results
+
+- Train Accuracy	~99.6%
+- Validation Accuracy	~99.5%
+- Test Accuracy	~99.7%
+- Final Loss	~0.0081
